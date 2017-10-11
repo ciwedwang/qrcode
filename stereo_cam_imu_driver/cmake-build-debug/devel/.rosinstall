@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/myfriend/catkin_ws/src/stereo_cam_imu_driver/cmake-build-debug/devel/setup.sh

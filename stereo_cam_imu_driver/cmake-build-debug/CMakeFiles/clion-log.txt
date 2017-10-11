@@ -1,0 +1,68 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/myfriend/catkin_ws/src/stereo_cam_imu_driver
+-- The C compiler identification is GNU 4.9.4
+-- The CXX compiler identification is GNU 4.9.4
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/myfriend/catkin_ws/src/stereo_cam_imu_driver/cmake-build-debug/devel
+-- Using CMAKE_PREFIX_PATH: /home/myfriend/vi_sensor_sdk/loitor_ros_workspace/devel;/home/myfriend/catkin_ws/devel;/opt/ros/indigo
+-- This workspace overlays: /home/myfriend/vi_sensor_sdk/loitor_ros_workspace/devel;/home/myfriend/catkin_ws/devel;/opt/ros/indigo
+-- Found PythonInterp: /usr/bin/python (found version "2.7.6") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/myfriend/catkin_ws/src/stereo_cam_imu_driver/cmake-build-debug/test_results
+-- Looking for include file pthread.h
+-- Looking for include file pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.6.19
+-- Using these message generators: gencpp;genlisp;genpy
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   thread
+--   system
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.26") 
+-- Configuring done
+CMake Warning at CMakeLists.txt:82 (add_executable):
+  Cannot generate a safe runtime search path for target stereo because files
+  in some directories may conflict with libraries in implicit directories:
+
+    runtime library [libboost_program_options.so.1.54.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_signals.so.1.54.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_filesystem.so.1.54.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_regex.so.1.54.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_date_time.so.1.54.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_system.so.1.54.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_thread.so.1.54.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+
+  Some of these libraries may not be found correctly.
+
+
+-- Generating done
+-- Build files have been written to: /home/myfriend/catkin_ws/src/stereo_cam_imu_driver/cmake-build-debug

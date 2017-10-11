@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -O3 -g -fopenmp -march=native -std=c++11 -fPIC -fno-omit-frame-pointer -msse -msse2 -msse3 -mssse3 -msse4  -mfpmath=sse  -g  -shared -Wl,-soname,libcapture.so -o libcapture.so CMakeFiles/capture.dir/src/cdatacapture.cpp.o 
